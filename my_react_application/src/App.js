@@ -7,6 +7,7 @@ import WithoutJSX from './components/Reactjs03_withoutJSX'
 import Props_FuncComponent_Hi from './components/Reactjs04_Props_FuncComponent_Hi'
 import Props_ClassComponent_Hi from './components/Reactjs05_Props_ClassComponent_Hi'
 import State_ClassCompo from './components/Reactjs06_State_ClassCompo'
+import Reactjs07_State_Counter from './components/Reactjs07_State_Counter';
 
 /* 
  * Stateless Functional Component
@@ -54,7 +55,9 @@ class App extends Component {
           <p>This is Blackwidow children props</p>
         </Props_ClassComponent_Hi>
 
-        <State_ClassCompo />      
+        <State_ClassCompo /> 
+
+        <Reactjs07_State_Counter />     
       </div>
      );
    }

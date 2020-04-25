@@ -3,7 +3,6 @@ import React, {Component} from 'react'
 class State_ClassCompo extends Component {
     constructor(){
         super()
-
         this.state = {
             message: "Welcome visitor"
         }
@@ -15,11 +14,11 @@ class State_ClassCompo extends Component {
         })
     }
     render() {
-    return (
-        <div>
-            <h1>{this.state.message}</h1>
-            <button onClick={() => this.changeMsg() }>Change State</button>
-        </div>
+        return (
+            <div>
+                <h1>{this.state.message}</h1>
+                <button onClick={() => this.changeMsg() }>Change State</button>
+            </div>
         )
     }
 }
