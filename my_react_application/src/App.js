@@ -8,6 +8,9 @@ import Props_FuncComponent_Hi from './components/Reactjs04_Props_FuncComponent_H
 import Props_ClassComponent_Hi from './components/Reactjs05_Props_ClassComponent_Hi'
 import State_ClassCompo from './components/Reactjs06_State_ClassCompo'
 import Reactjs07_State_Counter from './components/Reactjs07_State_Counter';
+import Event_FuncCompo_Click from './components/Reactjs08_Event_FuncCompo_Click'
+import Event_ClassCompo_Click from './components/Reactjs09_Event_ClassCompo_Click'
+import EventBind from './components/Reactjs10_EventBind'
 
 /* 
  * Stateless Functional Component
@@ -56,8 +59,11 @@ class App extends Component {
         </Props_ClassComponent_Hi>
 
         <State_ClassCompo /> 
-
         <Reactjs07_State_Counter />     
+
+        <Event_FuncCompo_Click />
+        <Event_ClassCompo_Click />
+        <EventBind />
       </div>
      );
    }
