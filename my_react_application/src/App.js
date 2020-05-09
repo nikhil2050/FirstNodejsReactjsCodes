@@ -11,6 +11,7 @@ import Reactjs07_State_Counter from './components/Reactjs07_State_Counter';
 import Event_FuncCompo_Click from './components/Reactjs08_Event_FuncCompo_Click'
 import Event_ClassCompo_Click from './components/Reactjs09_Event_ClassCompo_Click'
 import EventBind from './components/Reactjs10_EventBind'
+import ParentCompo from './components/Reactjs11a_ParentCompo';
 
 /* 
  * Stateless Functional Component
@@ -64,6 +65,8 @@ class App extends Component {
         <Event_FuncCompo_Click />
         <Event_ClassCompo_Click />
         <EventBind />
+
+        <ParentCompo />
       </div>
      );
    }
