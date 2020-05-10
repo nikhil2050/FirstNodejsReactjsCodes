@@ -12,6 +12,8 @@ import Event_FuncCompo_Click from './components/Reactjs08_Event_FuncCompo_Click'
 import Event_ClassCompo_Click from './components/Reactjs09_Event_ClassCompo_Click'
 import EventBind from './components/Reactjs10_EventBind'
 import ParentCompo from './components/Reactjs11a_ParentCompo';
+import NameList from './components/Reactjs13a_NameList';
+import PersonList from './components/Reactjs13b_PersonList';
 
 /* 
  * Stateless Functional Component
@@ -67,6 +69,9 @@ class App extends Component {
         <EventBind />
 
         <ParentCompo />
+
+        <NameList />
+        <PersonList />
       </div>
      );
    }
