@@ -14,6 +14,9 @@ import EventBind from './components/Reactjs10_EventBind'
 import ParentCompo from './components/Reactjs11a_ParentCompo';
 import NameList from './components/Reactjs13a_NameList';
 import PersonList from './components/Reactjs13b_PersonList';
+import CSSStylesheet from './components/Reactjs14a_CSSStylesheet';
+import InlineStyling from './components/Reactjs14b_InlineStyling';
+import CSSModule_Parent from './components/Reactjs14c_CSSModule_Parent';
 
 /* 
  * Stateless Functional Component
@@ -72,6 +75,11 @@ class App extends Component {
 
         <NameList />
         <PersonList />
+
+        <CSSStylesheet defaultClass="primary"/>
+        <InlineStyling />
+        <CSSModule_Parent />
+
       </div>
      );
    }
