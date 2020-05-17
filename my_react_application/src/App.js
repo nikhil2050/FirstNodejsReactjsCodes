@@ -17,6 +17,8 @@ import PersonList from './components/Reactjs13b_PersonList';
 import CSSStylesheet from './components/Reactjs14a_CSSStylesheet';
 import InlineStyling from './components/Reactjs14b_InlineStyling';
 import CSSModule_Parent from './components/Reactjs14c_CSSModule_Parent';
+import SampleForm from './components/Reactjs15_SampleForm';
+import LifecycleA from './components/Reactjs16_LifecycleA';
 
 /* 
  * Stateless Functional Component
@@ -80,6 +82,9 @@ class App extends Component {
         <InlineStyling />
         <CSSModule_Parent />
 
+        <SampleForm />
+
+        <LifecycleA />
       </div>
      );
    }
