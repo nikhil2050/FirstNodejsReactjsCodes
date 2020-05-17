@@ -19,6 +19,8 @@ import InlineStyling from './components/Reactjs14b_InlineStyling';
 import CSSModule_Parent from './components/Reactjs14c_CSSModule_Parent';
 import SampleForm from './components/Reactjs15_SampleForm';
 import LifecycleA from './components/Reactjs16_LifecycleA';
+import FragmentDemo from './components/Reactjs17a_FragmentDemo';
+import FragmentTable from './components/Reactjs17b_FragmentTable';
 
 /* 
  * Stateless Functional Component
@@ -84,7 +86,10 @@ class App extends Component {
 
         <SampleForm />
 
-        <LifecycleA />
+        <LifecycleA /> <hr/>
+
+        <FragmentDemo />
+        <FragmentTable /> 
       </div>
      );
    }
