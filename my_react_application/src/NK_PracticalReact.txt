@@ -1,0 +1,42 @@
+1. Icons :
+https://react-icons.netlify.com
+
+npm install react-icons --save
+OR
+yarn add react-icons
+
+-- ----------------------------------------------
+2. Toast :
+https://fkhadra.github.io/react-toastify
+https://github.com/fkhadra/react-toastify#readme
+
+npm install --save react-toastify
+OR
+yarn add react-toastify
+
+-- ----------------------------------------------
+3. Modal :
+http://reactcommunity.org/react-modal
+https://github.com/reactjs/react-modal
+
+npm install react-modal
+OR
+yarn add react-modal
+
+-- ----------------------------------------------
+4. ToolTip :
+https://github.com/atomiks/tippy.js-react
+
+npm i @tippyjs/react
+OR
+yarn add @tippyjs/react
+
+-- ----------------------------------------------
+5. CountUp :
+https://github.com/glennreyes/react-countup
+https://tr8tk.csb.app/
+
+npm install react-countup
+OR
+yarn add react-countup
+

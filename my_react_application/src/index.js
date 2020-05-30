@@ -2,13 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import AppPracticalReact from './AppPracticalReact';
 import HomeComponent from './components/Reactjs101_SubmitForm/HomeComponent'
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
-{/*     <HomeComponent /> */}
+    {/* <App /> */}
+    <AppPracticalReact />
+    {/* <HomeComponent /> */}
   </React.StrictMode>,
   document.getElementById('root')
 );

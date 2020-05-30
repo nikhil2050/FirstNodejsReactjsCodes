@@ -113,3 +113,26 @@ Parent-Child component execution flow:
     
     > When there is an error either during rendering OR in a lifecycle method 
         OR in constructor of child compo.
+
+-- -----------------------------------------------
+-- -----------------------------------------------
+
+PURE-COMPONENT :
+
+Instead of extending Component, PureComponent can be extended.
+
+PureComponent implements shouldComponentUpdate lifecycle method by performing a SHALLOW COMPARISON
+on the props and state of the component.
+
+PERFORMANCE BOOST - If there is no difference, the component is not re-rendered.
+
+Never mutate the state. Always return a new object that reflects the new state.
+
+var a = [1,2,3]
+var b = [1,2,3]
+var c = a
+(a === b)   // false
+(a === c)   // true
+
+-- -----------------------------------------------
+-- -----------------------------------------------

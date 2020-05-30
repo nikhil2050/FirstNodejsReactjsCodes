@@ -21,6 +21,7 @@ import SampleForm from './components/Reactjs15_SampleForm';
 import LifecycleA from './components/Reactjs16_LifecycleA';
 import FragmentDemo from './components/Reactjs17a_FragmentDemo';
 import FragmentTable from './components/Reactjs17b_FragmentTable';
+import ParentComponent from './components/Reactjs18a_ParentCompo';
 
 /* 
  * Stateless Functional Component
@@ -90,6 +91,8 @@ class App extends Component {
 
         <FragmentDemo />
         <FragmentTable /> 
+
+        <ParentComponent />
       </div>
      );
    }
