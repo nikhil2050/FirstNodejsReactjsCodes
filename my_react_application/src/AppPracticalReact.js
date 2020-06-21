@@ -22,6 +22,9 @@ import 'tippy.js/dist/tippy.css' */
 // Import COUNTUP
 import CountUp, { useCountUp } from 'react-countup'
 
+// Import IDLE-TIMER
+import IdleTimerContainer from './componentsPracticalReact/ReactjsPrac01_IdleTimerContainer';
+
 /* 
  *  TOAST
  */
@@ -117,7 +120,33 @@ function AppPracticalReact() {
                 <button onClick={reset}>Reset</button>
                 <button onClick={() => update(2000)}>Update to 1000</button>
             </div>
-        </div>
+
+            {/* IDLE-TIMER */}
+            <IdleTimerContainer />
+
+            {/* COLOR-PICKER */}
+            {/* https://www.youtube.com/watch?v=qX6FFDENac0&list=PLC3y8-rFHvwhAh1ypBvcZLDO6I7QTY5CM&index=8 */}
+
+            {/* CREDIT-CARDS */}
+            {/* https://www.youtube.com/watch?v=HpmL7dvyRUY&list=PLC3y8-rFHvwhAh1ypBvcZLDO6I7QTY5CM&index=9 */}
+
+            {/* DATE-PICKER */}
+            {/* https://www.youtube.com/watch?v=tojwQEdI-QI&list=PLC3y8-rFHvwhAh1ypBvcZLDO6I7QTY5CM&index=10 */}
+
+            {/* PRESENTATION (MDX) Deck */}
+            {/* https://www.youtube.com/watch?v=nwTm1I1Q4cQ&list=PLC3y8-rFHvwhAh1ypBvcZLDO6I7QTY5CM&index=11 */}
+
+            {/* Video Player */}
+            {/* https://www.youtube.com/watch?v=7sDY4m8KNLc&list=PLC3y8-rFHvwhAh1ypBvcZLDO6I7QTY5CM&index=12 */}
+
+            {/* LOADING INDICATORS */}
+            {/* https://www.youtube.com/watch?v=T0i0zHyryrs&list=PLC3y8-rFHvwhAh1ypBvcZLDO6I7QTY5CM&index=13 */}
+
+            {/* CHARTS */}
+            {/* https://www.youtube.com/watch?v=28ZbeLWmfiQ&list=PLC3y8-rFHvwhAh1ypBvcZLDO6I7QTY5CM&index=14 */}
+            
+            
+        </div> 
     )
 }
 

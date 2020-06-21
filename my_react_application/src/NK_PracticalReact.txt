@@ -40,3 +40,38 @@ npm install react-countup
 OR
 yarn add react-countup
 
+-- ----------------------------------------------
+6. Idle Timer :
+https://github.com/supremetechnopriest
+
+npm install react-idle-timer --save
+OR
+yarn add react-idle-timer
+
+-- ----------------------------------------------
+7. Color Picker :
+
+-- ----------------------------------------------
+8. Credit Cards :
+
+-- ----------------------------------------------
+9. Date Picker :
+
+-- ----------------------------------------------
+10. Presentation (MDX) Deck :
+github.com/jxnblk/mdx-deck
+
+npm i -D mdx-deck
+OR
+yarn add -D mdx-deck
+
+-- ----------------------------------------------
+11. Video Player : 
+
+-- ----------------------------------------------
+12. Loading Indicators :
+
+-- ----------------------------------------------
+13. Charts : 
+github.com/jerairrest/react-chart
+

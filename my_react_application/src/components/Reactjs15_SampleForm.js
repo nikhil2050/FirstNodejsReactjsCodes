@@ -23,7 +23,7 @@ class SampleForm extends Component {
 
     handleSubmit = (event) => {
         alert(`Username:: ${this.state.username}, Comment:: ${this.state.comment}, Topic:: ${this.state.topic}` )
-        event.preventDefault()
+        event.preventDefault()                      // Add to maintain the entered values after Submit
     }
 
     render() {
