@@ -5,7 +5,7 @@ class RegularCompo extends Component {
         console.log('*****Regular Compo Render*****')
         return (
             <div>
-                Regular Component {this.props.name}
+                Regular Component - {this.props.name}
             </div>
         )
     }

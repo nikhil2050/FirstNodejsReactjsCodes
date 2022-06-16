@@ -116,13 +116,34 @@ Parent-Child component execution flow:
 
 -- -----------------------------------------------
 -- -----------------------------------------------
+SHALLOW COMPARISON :
+-- -----------------------------------------------
+    Primitive Types:
+        var a = 'Vishwas'
+        var b = 'Vishwas'
+        (a === b)   // true
 
-PURE-COMPONENT :
+    Complex Types:
+        var a = [1,2,3]
+        var b = [1,2,3]
+        var c = a
+        (a === b)   // false
+        (a === c)   // true
+
+        Similarly for objects
+        ex. var ob = { x:1, y:2 };
+
+-- -----------------------------------------------
+-- -----------------------------------------------
+PURE-COMPONENT (for Class Components):
+-- -----------------------------------------------
 
 Instead of extending Component, PureComponent can be extended.
 
-PureComponent implements shouldComponentUpdate lifecycle method by performing a SHALLOW COMPARISON
+PureComponent implements shouldComponentUpdate lifecycle method by performing a SHALLOW COMPARISON (Refer above block)
 on the props and state of the component.
+
+If parent don't Re-render, then child doesn't Re-render.
 
 PERFORMANCE BOOST - If there is no difference, the component is not re-rendered.
 
@@ -134,5 +155,29 @@ var c = a
 (a === b)   // false
 (a === c)   // true
 
+DISADVANTAGE: Works with only Class Components.
+
+-- -----------------------------------------------
+
+MEMO (for Functional Components):
+
+    - ClassComponent :: PureComponent
+    - FunctComponent :: React.memo()
+    React.memo() does the same as PureComponent (for Component)
+    But it does not check for changes in state, only in props 
+    React.memo() = "Higher order components"
+
 -- -----------------------------------------------
 -- -----------------------------------------------
+REFs:
+-- -----------------------------------------------
+    Approach #1: Using React.createRef()
+        1. Create a reference using React.createRef()
+        2. We attach a reference to an element using the ref prop and assign the property
+        3. The element can be accessed using 'this.ref.current'
+
+    Approach #2: Create a property and assign value = null
+        1. First create a property and 
+            then create a method that assigns the property with a DOM element passed as a parameter.
+        2. We attach the 'ref' to an element using the method that inturn assigns the element to the property
+        3. The element can be accessed using 'this.ref'
