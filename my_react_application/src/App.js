@@ -22,6 +22,9 @@ import LifecycleA from './components/Reactjs16_LifecycleA';
 import FragmentDemo from './components/Reactjs17a_FragmentDemo';
 import FragmentTable from './components/Reactjs17b_FragmentTable';
 import ParentComponent from './components/Reactjs18a_ParentCompo';
+import ParentCompoForMemo from './components/Reactjs19a_ParentCompo';
+import Refs1 from './components/Reactjs20a_Refs';
+import Refs2 from './components/Reactjs20b_Refs';
 
 /* 
  * Stateless Functional Component
@@ -92,7 +95,15 @@ class App extends Component {
         <FragmentDemo />
         <FragmentTable /> 
 
-        <ParentComponent />
+        {/* Comment this. As it is running in loop. */}
+        {/* <ParentComponent /> */}
+        {/* <ParentCompoForMemo /> */}
+
+        {/* Example to focus a Textfield here */}
+        {/* <Refs1 />           <hr/> */}
+        <Refs2 />           <hr/>
+
+
       </div>
      );
    }
