@@ -33,6 +33,10 @@ WHY HOOKS:
             Both "Data fetching" & "Event listeners" end up in the same code block of componentDidMount()
         Because of stateful logic - Cannot break components into smaller ones
 
+RULES OF HOOKS:
+    1. "Only call hooks at the top level"
+        Don't call hooks inside loops, conditions or nested functions
 
-
+    2. "Only call hooks from React functional components"
+        Not from any regular JS function
 

@@ -28,6 +28,8 @@ import Refs2 from './components/Reactjs20b_Refs';
 import GetRequestHandle from './components/httpExamples/Http01_GetRequestHandle';
 import PostRequestHandle from './components/httpExamples/Http02_PostRequestHandle';
 import UseState_ClassComponentCounter from './components/hooksExamples/Hooks01_useState_ClassComponentCounter';
+import UseState_FunctComponentCounter from './components/hooksExamples/Hooks02a_useState_FunctComponentCounter';
+import UseState_FunctComponentCounter_PrevState from './components/hooksExamples/Hooks02b_useState_FunctComponentCounter_prevState';
 
 /* 
  * Stateless Functional Component
@@ -109,9 +111,15 @@ class App extends Component {
         <GetRequestHandle />        <hr/>
         <PostRequestHandle />       <hr/>
 
-        HOOKS<br/>
-        1. useState
+        <b>HOOKS</b><br/>
+        1. useState with Class Component:
         <UseState_ClassComponentCounter />
+
+        2a. useState with Functional Component:
+        <UseState_FunctComponentCounter />
+
+        2b. useState with Functional Component with Previous state (variable safety):
+        <UseState_FunctComponentCounter_PrevState />
 
       </div>
      );
