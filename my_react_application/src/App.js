@@ -27,6 +27,7 @@ import Refs1 from './components/Reactjs20a_Refs';
 import Refs2 from './components/Reactjs20b_Refs';
 import GetRequestHandle from './components/httpExamples/Http01_GetRequestHandle';
 import PostRequestHandle from './components/httpExamples/Http02_PostRequestHandle';
+import UseState_ClassComponentCounter from './components/hooksExamples/Hooks01_useState_ClassCounter';
 
 /* 
  * Stateless Functional Component
@@ -107,6 +108,10 @@ class App extends Component {
 
         <GetRequestHandle />        <hr/>
         <PostRequestHandle />       <hr/>
+
+        HOOKS<br/>
+        1. useState
+        <UseState_ClassComponentCounter />
 
       </div>
      );
