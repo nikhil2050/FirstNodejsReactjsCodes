@@ -26,6 +26,7 @@ import ParentCompoForMemo from './components/Reactjs19a_ParentCompo';
 import Refs1 from './components/Reactjs20a_Refs';
 import Refs2 from './components/Reactjs20b_Refs';
 import GetRequestHandle from './components/httpExamples/Http01_GetRequestHandle';
+import PostRequestHandle from './components/httpExamples/Http02_PostRequestHandle';
 
 /* 
  * Stateless Functional Component
@@ -105,6 +106,7 @@ class App extends Component {
         <Refs2 />           <hr/>
 
         <GetRequestHandle />        <hr/>
+        <PostRequestHandle />       <hr/>
 
       </div>
      );
