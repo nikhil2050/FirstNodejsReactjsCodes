@@ -30,6 +30,7 @@ import PostRequestHandle from './components/httpExamples/Http02_PostRequestHandl
 import UseState_ClassComponentCounter from './components/hooksExamples/Hooks01_useState_ClassComponentCounter';
 import UseState_FunctComponentCounter from './components/hooksExamples/Hooks02a_useState_FunctComponentCounter';
 import UseState_FunctComponentCounter_PrevState from './components/hooksExamples/Hooks02b_useState_FunctComponentCounter_prevState';
+import UseState_And_SpreadOperator from './components/hooksExamples/Hooks03_useState_And_SpreadOperator';
 
 /* 
  * Stateless Functional Component
@@ -121,6 +122,8 @@ class App extends Component {
         2b. useState with Functional Component with Previous state (variable safety):
         <UseState_FunctComponentCounter_PrevState />
 
+        3. SpreadOperator
+        <UseState_And_SpreadOperator />
       </div>
      );
    }
